@@ -70,10 +70,17 @@ flutter build apk
 
 ## Contact
 
-*   **Email:** contact@managedinformativedata.com
-*   **GitHub:** [Managed-Informative-Data](https://github.com/Managed-Informative-Data)
+*   **Email:** [contact@managedinformativedata.com](mailto:contact@managedinformativedata.com)
 *   **LinkedIn:** [Tristan Gerber](https://www.linkedin.com/in/tristan-gerber-8698b5231/)
+*   **GitHub:** [Managed-Informative-Data](https://github.com/Managed-Informative-Data)
+*   **Website:** [managedinformativedata.com](https://managedinformativedata.com)
 
-## License
+## License & Copyright
+// ...existing code...
 
-Copyright (C) 2025 Managed Informative Data. All rights reserved.
+**Codebase:**
+The source code of this project is licensed under the **MIT License**. You are free to use, modify, and distribute the code as long as you include the original license file. See the [LICENSE](LICENSE) file for details.
+
+**Assets & Branding:**
+The "Bilingual Reader" name, the application logo, and the banner images are **Copyright (C) 2025 Managed Informative Data. All rights reserved.**
+You may **not** use these assets to represent your own derivative works or distribute a modified version of the application using the same branding without prior written permission.
