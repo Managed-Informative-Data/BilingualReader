@@ -9,14 +9,18 @@ OutputBaseFilename=BilingualReader_Setup
 OutputDir=.\installer_output
 Compression=lzma2
 SolidCompression=yes
+; Use the app icon for the installer itself
+SetupIconFile=..\..\windows\runner\resources\app_icon.ico
 
 [Files]
 ; NOTE: Check that this path matches your actual build output path
 Source: "..\..\build\windows\x64\runner\Release\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+; Include the icon file explicitly so we can use it for shortcuts if needed
+Source: "..\..\windows\runner\resources\app_icon.ico"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
-Name: "{group}\Bilingual Reader"; Filename: "{app}\bilingual_reader.exe"
-Name: "{commondesktop}\Bilingual Reader"; Filename: "{app}\bilingual_reader.exe"
+Name: "{group}\Bilingual Reader"; Filename: "{app}\bilingual_reader.exe"; IconFilename: "{app}\app_icon.ico"
+Name: "{commondesktop}\Bilingual Reader"; Filename: "{app}\bilingual_reader.exe"; IconFilename: "{app}\app_icon.ico"
 
 [Code]
 // This section handles the custom cleanup of AppData
